@@ -11,10 +11,17 @@ module.exports = {
         sans: 'var(--font-roboto)',
         alt: 'var(--font-bai-jamjuree)',
       },
+
+      fontSize: {
+        '5xl': '2.5rem',
+      },
+
       backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        stripes:
+          'linear-gradient(to bottom, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1) 12.5%, transparent 12.5%, transparent)',
+      },
+      backgroundSize: {
+        stripes: '100% 8px',
       },
       colors: {
         gray: {
@@ -53,6 +60,9 @@ module.exports = {
           800: '#027435',
           900: '#025929',
         },
+      },
+      blur: {
+        full: '194px',
       },
     },
   },
